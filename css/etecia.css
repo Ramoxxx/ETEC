@@ -1,11 +1,54 @@
 *{
-
+    margin: opx;
+    padding: 0px;
 }
 
 h1,h2,h3 {
-    background-color:DarkOrchid;
+    background-color:#cc0000;
+    color:whitesmoke;
 }
 
-table {
-    border: 1px;
+table, th, td, tr {
+    border-width: 1px;
+    border-color: black;
+    border-style: ridge;
 }
+
+.a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.menu{
+    text-align: center;
+    list-style: none;
+}
+.menu li {
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    margin: 0px;
+    background-color: #0b6d8d;
+    
+}
+
+.logo{
+    margin-left: 85px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.hover:hover{
+    background-color:#07495f;
+    cursor: pointer;  
+}
+
+.principal{
+    width: 80%;
+    margin: auto;
+}
+.div{
+    background-color: #0b6d8d;
+}
+
