@@ -4,7 +4,7 @@
 }
 
 h1,h2,h3 {
-    background-color:#cc0000;
+    background-color:#0e92be;
     color:whitesmoke;
 }
 
@@ -14,10 +14,14 @@ table, th, td, tr {
     border-style: ridge;
 }
 
+body{
+    margin: 0px;
+}
+
 .a {
     text-decoration: none;
-    color: whitesmoke;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color:white;
+    text-shadow: -1px 0 black , 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .menu{
@@ -25,12 +29,15 @@ table, th, td, tr {
     list-style: none;
 }
 .menu li {
-    padding: 20px;
+    padding: 16px;
     display: inline-block;
     text-align: center;
     margin: 0px;
-    background-color: #0b6d8d;
-    
+    background-image: linear-gradient(#0e92be, #0c80a6, #0b6d8d);
+    border-left-color:#0e92be;
+    border-left-style: solid;
+    border-left-width: 1px; 
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo{
@@ -40,8 +47,9 @@ table, th, td, tr {
 }
 
 .hover:hover{
-    background-color:#07495f;
+    background-image: linear-gradient(#07495f, #07495f, #07495f);
     cursor: pointer;  
+
 }
 
 .principal{
@@ -49,6 +57,15 @@ table, th, td, tr {
     margin: auto;
 }
 .div{
-    background-color: #0b6d8d;
+    background-image: linear-gradient(#0e92be, #0c80a6, #0b6d8d);
+}
+input{
+    border-radius: 6px;
+    margin-left: 60px;
+  
 }
 
+::placeholder{
+    color: #cccccc;
+    background-color: #0b6d8d;
+}
