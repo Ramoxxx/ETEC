@@ -64,14 +64,25 @@ body{
 }
 
 input{
+    background-color: #0b6d8d;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom-color: rgba(252, 252, 252, 0.2);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
     border-radius: 6px;
     float: right;
-    margin-top: 16px;
+    margin-top: 10px;
     margin-right: 142px;
+    padding: 4px;
+    color: whitesmoke;
+    -moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow:inset 0 0 3px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
 }
 
 ::placeholder{
     color: #cccccc;
     background-color: #0b6d8d;
+
 }
 
